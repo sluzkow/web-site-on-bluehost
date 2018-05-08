@@ -1,0 +1,265 @@
+/*****Base Styles*****/
+font-face {
+font-family: 'Roboto', sans-serif;
+font-family: "Lato", sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Cabin Condensed', sans-serif;
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+/***** GRID *****/
+ .full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+ .half-width {
+   width: 600px; float:left;
+ }
+ .third-width {
+   width: 350px;
+   float:left;
+}
+
+.bold {
+	font-weight:bold;
+color: #66ff66;}
+
+/***** HEADER *****/
+#header .background1 {
+				background: rgb(51, 51, 51);
+				background: rgba(51, 51, 51, .8);
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-position: top;
+				height:160px;
+				width: 1200px;
+				margin: 0 auto;
+				}
+header {
+  height:768px;
+  background:  url("../img/buildingup.png");
+	background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  }
+
+#header .logo-img {
+					margin-top:36px;
+					margin-left: 50px; float: left;
+										}
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: white;
+		padding-left: 210px;
+    font-variant:small-caps;
+		word-spacing: 5px;
+		line-height: 55px;
+}
+header nav {
+float: right;
+padding: 60px 30px 0 0;;
+}
+header nav ul li{
+	display: inline-block;
+	}
+header nav ul li a {
+text-transform: uppercase;
+text-decoration: none;
+font-size: 14pt;
+color: #ffcccc;
+padding-left: 18px;
+padding-right: 25px;
+padding-top: 65px;
+}
+#header {clear:both;
+}
+header h2 {
+	background: rgb(51, 51, 51);
+	background: rgba(51, 51, 51, .9);
+	background-repeat: no-repeat;
+	border: 10px solid #cccc66;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 32px;
+	font-weight: normal;
+	color: white;
+	justify-content:center;
+	margin: 150px;
+	line-height: 58px;
+	padding: 30px;
+	text-align: center;
+	word-spacing: 0px;
+	width: 840px;
+	font-variant:small-caps;
+  }
+/***** ABOUT *****/
+#about .full-width {
+    		padding: 20px 0;
+				background: rgb(51, 51, 51);
+				background: rgba(51, 51, 51, .9);
+				width: 1200px;
+}
+#about .third-width {
+			padding: 6px;
+			background-color: #333333;
+			border: 5px solid #cccc66;
+			margin:75px 5px 0 18px;
+		}
+#about .background2 {
+  height:768px;
+  background:  url("../img/buildingdown.png");
+	background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  }
+#about h2 {
+	color: #cccc66;
+	font-family:'Work sans', sans-serif;
+	font-size: 30px;
+	font-variant:small-caps;
+	text-align: center;
+}
+#about h3 {
+    font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+    font-size: 16pt;
+    color: white;
+		line-height:30px;
+    margin: 0 auto;
+    text-align: center;
+	}
+#about p {
+    font-family: 'cabin', sans-serif;
+    font-size: 13pt;
+		font-weight: 200;
+    color:white;
+    line-height: 30px;
+		margin: 5px;
+		padding-left: 16px;
+		width: 300px;
+	}
+/***** WORK PRODUCTS *****/
+#work .background4 {
+	height:768px;
+  background:  url("../img/buildingup.png");
+	background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  }
+#work .full-width {
+	padding: 20px 0;
+	background: rgb(51, 51, 51);
+	background: rgba(51, 51, 51, .9);
+	width: 1200px;
+				}
+#work .third-width {
+				padding: 0px 0;
+				background-color: #333333;
+			  border: 5px solid #cccc66;
+				margin-top: 100px;
+				margin-left:30px;
+				margin-bottom: 100px;
+				width: 220 px;
+}
+	div {
+	display:block;
+}
+#work h2 {
+    color: #cccc66;
+    font-family:'Work sans', sans-serif;
+    font-size: 30px;
+		font-variant:small-caps;
+		text-align: center;
+}
+
+#work h3 {
+    font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+    font-size: 16pt;
+    color: white;
+		line-height:20px;
+    margin: 0 auto;
+		padding: 10px 0 10px 0;
+		    text-align: center;
+	}
+#work p {
+		font-family: 'cabin', sans-serif;
+    font-size: 13pt;
+		font-weight: 200;
+    color:white;
+    line-height: 22px;
+		text-align: center;
+		width: 350px;
+}
+		/***** CONTACT *****/
+#contact .mtnbackground {
+			height:780px;
+			width: 1200px;
+		  background:  url("../img/mtnneg.png");
+			background-repeat: no-repeat;
+		  background-size: auto;
+		  background-position: center;
+			margin: 0 auto;
+		  }
+#contact .full-width {
+	padding: 20px 0;
+	background: rgb(51, 51, 51);
+	background: rgba(51, 51, 51, .9);
+	width: 1200px;
+}
+div {
+	display:block;
+}
+#contact .half-width{
+	width: 600px;
+	padding:45px 0;
+}
+#contact h1 {
+		font-family:'Roboto';
+		font-size: 50px;
+		color: white;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		padding-left:60px;
+}
+
+	#contact-img {
+			margin-left: 158px;
+			margin-top:20px;
+	    border: 15px solid black;
+}
+		#contact h2 {
+		    color: #ffd11a;
+		    font-family:'Work sans', sans-serif;
+		    font-size: 22px;
+				padding-right: 10px;
+				text-align: center;
+}
+#contact p { color: white;
+ font-family:'Work sans', sans-serif;
+ font-size: 20px;
+ padding-left: 90px;
+}
+#contact .media{
+		border: 15px solid black;
+		background: rgb(51, 51, 51);
+		background: rgba(51, 51, 51, .8);
+		padding: 0px 20px 0 20px;
+		margin-right: 60px;
+				width: 380px;
+	}
+#contact .envelope{
+	padding-left: 160px;
+}
+main ul {
+				    list-style: none;
+}
+main ul li   {
+			display: inline-block;
+}
+main ul img {
+		 padding-right: 30px;
+		 padding-left: 30px;
+	 }
